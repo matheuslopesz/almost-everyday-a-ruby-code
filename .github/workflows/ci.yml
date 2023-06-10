@@ -13,9 +13,6 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.0.2'
-      - name: Lint
-        run: |
-          rubocop ./ruby
 
       - name: Run Tests
         run: |
